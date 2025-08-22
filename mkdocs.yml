@@ -1,13 +1,49 @@
 site_name: MODMIX Wiki
+site_description: Official MODMIX server documentation (OG Factions, Survival SMP, Cobblemon).
 site_url: https://yourusername.github.io/modmix-wiki/
+
+repo_url: https://github.com/yourusername/modmix-wiki
+edit_uri: edit/main/docs/
+
 theme:
   name: material
+  logo: assets/logo.png        # place at docs/assets/logo.png
+  favicon: assets/favicon.png  # place at docs/assets/favicon.png
   palette:
-    scheme: slate
-    primary: deep_purple
-    accent: pink
-  logo: assets/logo.png
-  favicon: assets/favicon.png
+    - scheme: slate
+      primary: purple
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+    - scheme: default
+      primary: purple
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+    - content.code.copy
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/6BMT3mfnfs
+      name: MODMIX Discord
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+      name: GitHub
+
 nav:
   - Home: index.md
   - Servers:
@@ -17,3 +53,31 @@ nav:
   - Guides:
       - Raiding & Cannoning: raiding.md
   - FAQ: faq.md
+
+plugins:
+  - search
+  # If you later add versioning or blog-like releases, you can enable more plugins here.
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: false
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - assets/extra.css

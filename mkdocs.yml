@@ -1,0 +1,19 @@
+site_name: MODMIX Wiki
+site_url: https://yourusername.github.io/modmix-wiki/
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep_purple
+    accent: pink
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+nav:
+  - Home: index.md
+  - Servers:
+      - OG Factions: factions.md
+      - Survival SMP: survival.md
+      - Cobblemon: cobblemon.md
+  - Guides:
+      - Raiding & Cannoning: raiding.md
+  - FAQ: faq.md

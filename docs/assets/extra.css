@@ -1,0 +1,20 @@
+/* Subtle MODMIX accent nudge */
+:root {
+  --md-primary-fg-color: #7c3aed;   /* purple-600 vibe */
+  --md-accent-fg-color:  #ec4899;   /* pink-500/magenta */
+}
+
+/* Callouts: make "tip" and "important" pop a touch more */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-left-color: #ec4899;
+}
+.md-typeset .admonition.important,
+.md-typeset details.important {
+  border-left-color: #7c3aed;
+}
+
+/* Code blocks: slightly tighter look */
+.md-typeset pre > code {
+  font-size: .9rem;
+}

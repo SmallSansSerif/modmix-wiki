@@ -9,7 +9,7 @@ Welcome to the official MODMIX Wiki. Find commands, FAQs, and guides for every M
 - **Discord:** [discord.gg/6BMT3mfnfs](https://discord.gg/6BMT3mfnfs)
 
 ## About MODMIX
-MODMIX is a community-first network with **no pay-to-win**. Cosmetic ranks are **earned in-game** via `/rankup` (requirements: MCMMO power + in-game currency + 30 XP levels).
+MODMIX is a community-first network with **no pay-to-win**. On OG Factions, cosmetic ranks are **earned in-game** via `/rankup` (requirements: MCMMO power + in-game currency + 30 XP levels).
 
 ### Servers
 - **OG Factions** — OG-style factions with mcMMO, manual raiding, and classic cannoning. Version: **1.21.8**.
